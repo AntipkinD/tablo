@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TABLO</string>
+    <string name="ЯЩЕРЫ">yash</string>
+    <string name="yash">ЯЩЕРЫ</string>
+    <string name="rus">РУСЫ</string>
+    <string name="clear">СБРОС</string>
+    <string name="zero">0</string>
+    <string name="dotdot">:</string>
+</resources>
