@@ -34,5 +34,19 @@ public class MainActivity extends AppCompatActivity {
         counterAView.setText(counterA.toString());
         counterBView.setText(counterB.toString());
     }
-    
+    public void onSaveInstanceState(Bundle savedInstanceState){
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putInt("A", counterA);
+        savedInstanceState.putInt("B", counterB);
+    }
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        counterA = savedInstanceState.getInt("A");
+        counterB = savedInstanceState.getInt("B");
+        TextView counterAView = findViewById(R.id.txt);
+        TextView counterBView = findViewById(R.id.txt2);
+        counterAView.setText(counterA.toString());
+        counterBView.setText(counterB.toString());
+    }
 }
