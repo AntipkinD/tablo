@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCORETABLE</string>
+    <string name="yash">PANGOLINS</string>
+    <string name="clear">CLEAR</string>
+    <string name="zero">0</string>
+    <string name="dotdot">:</string>
+    <string name="rus">RUSES</string>
+</resources>
